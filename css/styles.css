@@ -106,10 +106,9 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.headerList li a:hover {
-  border-bottom: 2px solid black;
-}
+
 .current-page {
+  padding-bottom: 8px;
   border-bottom: 2px solid black;
 }
 
@@ -155,16 +154,18 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 30px;
+  background: rgba(47, 48, 58, 0.4);
 }
 .first-section {
   background-image: url(../images/efective\ solution.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 696px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px;
 }
 .title-motto {
   width: 763px;
@@ -495,6 +496,7 @@ button[type="button"] {
 }
 
 .link-porto {
+  padding: 6px 22px;
   color: #212121;
   text-decoration: none;
 }
