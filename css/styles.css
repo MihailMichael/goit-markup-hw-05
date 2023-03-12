@@ -162,22 +162,24 @@ body {
 .container-first-section {
   display: flex;
   width: 1200px;
-
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 30px;
+}
+.first-section {
+  display: flex;
+  justify-content: center;
   background-image: linear-gradient(
       to bottom,
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/efective\ solution.jpg);
-}
-.first-section {
+  width: auto;
   height: 600px;
-  display: flex;
-  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .title-motto {
   width: 763px;
